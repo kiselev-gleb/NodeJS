@@ -29,14 +29,14 @@
                         "number2":"634-5625-45-64"
                     }
                 ]
-            }`
+            }
+        }`
 
         let obj1 = JSON.parse(json1);
         console.log(obj1);
         console.log(obj1.firstName);
         console.log(obj1.age);
         console.log(obj1.address.city);
-        console.log(obj1.phoneNumbers[1].number2);
         let obj2 = {
             firstName: "Иванов",
             age: 20,
@@ -47,6 +47,7 @@
         console.log(obj2);
         let json3 = JSON.stringify(obj2);
         console.log(json3);
+
     </script>
 </body>
 
